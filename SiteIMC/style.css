@@ -1,0 +1,49 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: #222222;
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+form{
+    color: #fff;
+}
+#cabecalho{
+    font-weight: bold;
+}
+#tabela{
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    position: absolute;
+    text-align: left    ;
+    color: #fff;
+    border: 1px solid #fff;
+    box-sizing: 20px;
+    border-collapse: collapse;
+    
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+td, tr{
+    padding-right: 5vh;
+    border: 1px solid #fff;
+    padding: 8px;
+
+}
+button {
+    color:  white;
+    padding: 0.4vw 1.3vw ;
+    font-size: 17px;
+    margin-top: 4px;
+    border-radius: 0.5vw;
+    background: #111;
+    border: 1px solid #333;
+    margin-bottom: 1vw;
+   }
